@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Bootstrap</title>
+  <title>Bootstrap About</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
@@ -12,32 +12,36 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- Adding the bootstrap Navbar - Hamburger button for smaller screens - Active status for current page -->
+    <nav class="navbar navbar-expand-sm navbar-fixed-top navbar-light bg-white">
     <div class = "container navbar">
         <a class="navbar-brand" href="#">Markie Ruiz</a>
-     
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
               <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item Contact">
+            <li class="nav-item contact">
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
-            <li class="nav-item Portfolio">
+            <li class="nav-item portfolio">
               <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
           </ul>
-      
+        </div>
     </div>
   </nav>
-
+<!-- Image and paragraph section -->
 <div class="container midcontainer">
   <div class="row">
-    <div class="col-md-8">
+    <div class="col-md-12">
       <h1>About Me</h1>
     </div>
     <div class="row">
-      <div class="col-md-3">
+      <div class="col-md-3 picture">
         <img class="img-thumbnail" src="assets/images/test2.png" alt="Thumbnail image" style="width:200px; height:200px"
           ;>
       </div>
@@ -56,16 +60,29 @@
             Vestibulum laoreet hendrerit aliquet. Nunc eget eleifend arcu. Nunc quis gravida lacus. Aliquam sit amet ex
             odio. 
           </p>
+          <p>My name is Markie Ruiz. The homework directs, "Write a paragraph or two about yourself. Make it fun, show
+              your personality."
+              I have no personality so the rest of this paragraph will be Lorem Ipsum.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dignissim quis nibh fermentum condimentum.
+              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+              Ut iaculis velit quis ante posuere, vel bibendum erat facilisis. Aliquam quis fermentum mi. Curabitur
+              aliquam commodo felis vel dapibus.
+              Proin a venenatis nulla, in volutpat lacus. In tristique lectus id diam efficitur hendrerit. Morbi suscipit
+              mauris urna,
+              at viverra arcu congue ac. Morbi eu bibendum felis. Curabitur id feugiat turpis. Integer nec tempus tortor,
+              eu volutpat diam.
+              Vestibulum laoreet hendrerit aliquet. Nunc eget eleifend arcu. Nunc quis gravida lacus. Aliquam sit amet ex
+              odio. 
+          </p>
        </div>
       </div>
     </div>
   </div>
+  <!-- Adding footer within the body in bootstrap -->
 <footer class="footer">
     <div class="container text-center">
       <p class="col-md-12 footer-text">&copy; Copyright 2018</p>
     </div>
   </footer>
 </body>
-
-
 </html>

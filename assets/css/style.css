@@ -9,36 +9,54 @@ body {
     color: #777777;
 }
 
-.container {
-    width: 960px;
+.navbar {
+    padding: 0;
+    border-bottom: 1px solid #cccccc;
 }
-
 
 .midcontainer {
     padding: 25px;
     border: 2px solid #cccccc;
-    width: 960px;
     background: white;
     margin-top: 25px;
 }
+
 .navbar-light .navbar-brand {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     background: #4aaaa5;
     color: white;
     font-size: 30px;
-    padding: 30px;   
+    padding: 30px;
 
 }
+
 .midcontainer h1 {
     color: #4aaaa5;
-    border-bottom: 2px solid grey;
+    border-bottom: 2px solid #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 30px;
-    width: 900px;
+    padding-bottom: 5px;
 }
 
-nav.container {
-    background: grey;
+.img-thumbnail {
+    margin-left: 15px;
+    margin-top: 15px;
 }
+
+p {
+    margin-top: 15px;
+    margin-right: 5px;
+    padding:0;
+}
+
+.picture {
+    height: 200px;
+    width: 200px;
+}
+
+.btn {
+    background-color: #4aaaa5;
+}
+
